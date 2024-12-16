@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.editor-container {
+  width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.editor-box {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  min-height: 200px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.save-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.editor-box .public-DraftEditor-content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.public-DraftStyleDefault-block.public-DraftStyleDefault-ltr {
+  margin: 0;
+}
